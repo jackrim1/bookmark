@@ -8,8 +8,8 @@
       Tags:
 
      <% link.tags.each do |tag| %>
-     	<%= tag.name %>,
-     <%end%> 
+     	<a href="/tags/<%= tag.name%>"> <%= tag.name %><a>,
+     <%end%>
     </li>
   <% end %>
 </ul>
